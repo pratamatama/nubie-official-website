@@ -1,0 +1,45 @@
+@import '../variables';
+
+#hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: white;
+    background-color: #3C0170;
+    margin-top: -74px;
+
+    &::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: url(/images/linear-single.svg);
+        background-repeat: no-repeat;
+        transform: rotate(180deg);
+    }
+
+    .hero-text-wrapper {
+        position: relative;
+        z-index: 1;
+
+        .lead {
+            font-size: 20px;
+            letter-spacing: 0.5px;
+        }
+    }
+
+    .nubie-teamwork-illustration {
+        position: relative;
+        height: 100%;
+
+        img {
+            position: absolute;
+            bottom: -70%;
+            left: -10%;
+            transform: scale(1.3);
+        }
+    }
+}

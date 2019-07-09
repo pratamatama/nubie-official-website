@@ -1,0 +1,20 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import '~swiper/dist/css/swiper.css';
+
+@import 'styles/main';
+@import 'styles/navbar';
+@import 'styles/card';
+@import 'styles/swiper';
+
+@import 'styles/hero';
+@import 'styles/what_we_do';
+@import 'styles/our_latest_works';
+@import 'styles/footer';

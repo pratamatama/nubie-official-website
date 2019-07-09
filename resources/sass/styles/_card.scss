@@ -1,0 +1,31 @@
+.card {
+    width: 100%;
+    border: none;
+    margin-bottom: 30px;
+    border-radius: 1rem;
+    padding: 2rem 1rem;
+
+    .card-img-top {
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+
+    .card-footer {
+        padding-bottom: 1rem;
+        background-color: white;
+        border: none;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+
+    .card-body {
+        .title {
+            font-weight: bold;
+        }
+
+        .description {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+    }
+}
