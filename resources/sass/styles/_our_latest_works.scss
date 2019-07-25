@@ -8,13 +8,35 @@
     &::before {
         content: '';
         width: 100%;
-        height: 100%;
+        height: calc(100% + 1px);
         position: absolute;
-        top: -40%;
+        top: -60%;
         left: 0;
         background: url(/images/linear-single.svg);
         background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+        @media (min-width: 320px) and (max-width: 767.5px) {
+            top: -60%;
+        }
+
+        @media (min-width: 1920px) {
+            top: -75%;
+        }
     }
+
+    @media (min-width: 320px) and (max-width: 767.5px) {
+        &::after {
+            content: '';
+            width: 100%;
+            height: 5%;
+            position: absolute;
+            top: -3%;
+            left: 0;
+            background-color: $secondary;
+        }
+    }
+
 
     .wrapper {
         z-index: 1;
@@ -31,9 +53,27 @@
     .swiper-container {
         margin-top: 5rem;
 
+        @media (min-width: 320px) and (max-width: 767.5px) {
+            margin-top: 1rem;
+        }
+
         .swiper-slide {
             width: 50%;
             height: 400px;
+
+            @media (min-width: 320px) and (max-width: 767.5px) {
+                width: 90%;
+                height: 300px;
+            }
+
+            @media (min-width: 767.5px) and (max-width: 1277.5px) {
+                width: 70%;
+                height: 300px;
+            }
+
+            @media (min-width: 1920px) {
+                width: 30%;
+            }
         }
     }
 }

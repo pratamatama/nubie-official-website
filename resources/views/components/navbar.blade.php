@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-sm navbar-dark bg-transparent container" id="main-navbar-wrapper">
+<nav class="navbar navbar-expand-sm navbar-dark container" id="main-navbar-wrapper">
     <a class="navbar-brand" href="/">
         <img src="{{ asset('images/logo-small.svg') }}" alt="{{ config('app.name', 'Nubie') }}'s logo" class="img-fluid">
     </a>

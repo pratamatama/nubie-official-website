@@ -4,7 +4,7 @@
 
     <header id="hero">
         <div class="container hero-text-wrapper">
-            <div class="row">
+            <div class="row flex-column-reverse flex-md-row">
                 <div class="col-md-6">
                     <h1 class="display-1 font-weight-bolder">{{ config('app.name', 'Nubie') }}</h1>
                     <p class="lead">Digital solution for you businesses and services</p>
@@ -91,17 +91,7 @@
                     <div class="swiper-slide">
                         <div class="card shadow">
                             <div class="card-body">
-                                <h4 class="card-title">Lorem Ipsum</h4>
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque fugit eligendi, soluta placeat fuga
-                                    commodi perferendis molestias doloribus est perspiciatis et laudantium atque vero at sequi,
-                                    sapiente aperiam tempora necessitatibus!
-                                </p>
-                                <p class="card-text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque fugit eligendi, soluta placeat fuga
-                                    commodi perferendis molestias doloribus est perspiciatis et laudantium atque vero at sequi,
-                                    sapiente aperiam tempora necessitatibus!
-                                </p>
+                                {{-- content here --}}
                             </div>
                         </div>
                     </div>

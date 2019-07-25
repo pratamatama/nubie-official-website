@@ -7,6 +7,19 @@
     text-align: center;
     color: white;
 
+    @media (min-width: 320px) and (max-width: 767.45px) {
+        &::after {
+            content: "";
+            width: 100%;
+            height: 50%;
+            position: absolute;
+            bottom: -40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: $secondary;
+        }
+    }
+
     &::before {
         content: "";
         width: 100%;
@@ -17,6 +30,7 @@
         transform: translate(-50%, -50%);
         background: url(/images/linear-double.svg);
         background-repeat: no-repeat;
+        background-size: 100% 100%;
     }
 
     .text-wrapper,
@@ -31,6 +45,10 @@
         .title {
             font-size: 3rem;
             margin-bottom: 3rem;
+
+            @media (min-width: 320px) and (max-width: 767.45px) {
+                font-size: 25px;
+            }
         }
 
         button {
@@ -42,6 +60,14 @@
         padding: 2% 40%;
         display: flex;
         justify-content: space-evenly;
+
+        @media (min-width: 320px) and (max-width: 767.45px) {
+            padding: 2% 15%;
+        }
+
+        @media (min-width: 767.45px) and (max-width: 1278.45px) {
+            padding: 2% 30%;
+        }
 
         .social-account {
             position: relative;
