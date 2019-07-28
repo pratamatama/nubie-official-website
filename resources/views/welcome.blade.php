@@ -8,9 +8,9 @@
                 <div class="col-md-6">
                     <h1 class="display-1 font-weight-bolder">{{ config('app.name', 'Nubie') }}</h1>
                     <p class="lead">Digital solution for you businesses and services</p>
-                    <a class="btn btn-light btn-lg font-weight-bolder px-5" href="#" role="button">
+                    <button class="btn btn-light btn-lg font-weight-bolder px-5" data-toggle="modal" data-target="#popContact">
                         Talk with us
-                    </a>
+                    </button>
                 </div>
                 <div class="col-md-6">
                     <div class="nubie-teamwork-illustration">
@@ -138,9 +138,9 @@
     <footer id="contact">
         <div class="text-wrapper">
             <h3 class="title">Interested to work with us?</h3>
-            <a class="btn btn-light btn-lg font-weight-bolder px-5" href="#" role="button">
+            <button class="btn btn-light btn-lg font-weight-bolder px-5" data-toggle="modal" data-target="#popContact">
                 Let's talk!
-            </a>
+            </button>
         </div>
         <div class="social-account-wrapper">
             <a href="#" class="social-account">
@@ -154,4 +154,6 @@
             </a>
         </div>
     </footer>
+
+    @include('components.modal-contact')
 @endsection

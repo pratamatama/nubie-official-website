@@ -6571,7 +6571,7 @@ a.close.disabled {
 
 .modal.fade .modal-dialog {
   transition: transform 0.3s ease-out;
-  transform: translate(0, -50px);
+  transform: scale(0.8);
 }
 
 @media (prefers-reduced-motion: reduce) {
