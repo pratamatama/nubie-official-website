@@ -11262,6 +11262,10 @@ a.text-dark:focus {
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body,
 #root {
@@ -11690,7 +11694,7 @@ body,
   }
 }
 
-#footer {
+#contact {
   position: relative;
   padding: 10% 0;
   background-color: #3C0170;
@@ -11699,7 +11703,7 @@ body,
 }
 
 @media (min-width: 320px) and (max-width: 767.45px) {
-  #footer::after {
+  #contact::after {
     content: "";
     width: 100%;
     height: 50%;
@@ -11711,7 +11715,7 @@ body,
   }
 }
 
-#footer::before {
+#contact::before {
   content: "";
   width: 100%;
   height: 100%;
@@ -11724,50 +11728,50 @@ body,
   background-size: 100% 100%;
 }
 
-#footer .text-wrapper,
-#footer .social-account-wrapper {
+#contact .text-wrapper,
+#contact .social-account-wrapper {
   position: relative;
   z-index: 3;
 }
 
-#footer .text-wrapper {
+#contact .text-wrapper {
   margin-bottom: 3rem;
 }
 
-#footer .text-wrapper .title {
+#contact .text-wrapper .title {
   font-size: 3rem;
   margin-bottom: 3rem;
 }
 
 @media (min-width: 320px) and (max-width: 767.45px) {
-  #footer .text-wrapper .title {
+  #contact .text-wrapper .title {
     font-size: 25px;
   }
 }
 
-#footer .text-wrapper button {
+#contact .text-wrapper button {
   transform: scale(1.2);
 }
 
-#footer .social-account-wrapper {
+#contact .social-account-wrapper {
   padding: 2% 40%;
   display: flex;
   justify-content: space-evenly;
 }
 
 @media (min-width: 320px) and (max-width: 767.45px) {
-  #footer .social-account-wrapper {
+  #contact .social-account-wrapper {
     padding: 2% 15%;
   }
 }
 
 @media (min-width: 767.45px) and (max-width: 1278.45px) {
-  #footer .social-account-wrapper {
+  #contact .social-account-wrapper {
     padding: 2% 30%;
   }
 }
 
-#footer .social-account-wrapper .social-account {
+#contact .social-account-wrapper .social-account {
   position: relative;
   background-color: white;
   height: 50px;
@@ -11776,7 +11780,7 @@ body,
   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
 }
 
-#footer .social-account-wrapper .social-account img {
+#contact .social-account-wrapper .social-account img {
   position: absolute;
   top: 50%;
   left: 50%;

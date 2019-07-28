@@ -9,16 +9,16 @@
     <div class="collapse navbar-collapse" id="main-navigation-bar">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#hero">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Works</a>
+                <a class="nav-link" href="#what-we-do">Services</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#our-latest-works">Works</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Our Team</a>
+                <a class="nav-link" href="#contact">Contact</a>
             </li>
         </ul>
     </div>

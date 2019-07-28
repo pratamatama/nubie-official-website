@@ -83,24 +83,59 @@
         </div>
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                {{--
-                    @todo Make swiper slide content dynamic
-                    @body We don't need any text on it, only image showcases that visitor can click.
-                    --}}
-                @for ($i = 1; $i < 7; $i++)
-                    <div class="swiper-slide">
-                        <div class="card shadow">
-                            <div class="card-body">
-                                {{-- content here --}}
-                            </div>
-                        </div>
+                <div class="swiper-slide">
+                    <div class="card shadow" style="
+                        background: url({{ asset('images/primatama-home.png') }});
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;">
                     </div>
-                @endfor
+                </div>
+                <div class="swiper-slide">
+                    <div class="card shadow" style="
+                        background: url({{ asset('images/primatama-booking.png') }});
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card shadow" style="
+                        background: url({{ asset('images/gis-mockup.png') }});
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card shadow" style="
+                        background: url({{ asset('images/smartindustry.png') }});
+                        background-size: cover;
+                        background-position: top;
+                        background-repeat: no-repeat;">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card shadow" style="
+                        background: url({{ asset('images/smartindustry-logo-original.png') }});
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card shadow" style="
+                        background: url({{ asset('images/smartindustry-logo-white.png') }});
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <footer id="footer">
+    <footer id="contact">
         <div class="text-wrapper">
             <h3 class="title">Interested to work with us?</h3>
             <a class="btn btn-light btn-lg font-weight-bolder px-5" href="#" role="button">
