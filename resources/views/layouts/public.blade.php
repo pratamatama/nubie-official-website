@@ -9,8 +9,8 @@
 
     <title>{{ config('app.name', 'Nubie') }}</title>
     
-    <link rel="favicon" href="{{ asset('images/logo-small.svg') }}">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="shortcut icon" href="{{ asset('images/logo-small.svg') }}">
 </head>
 
 <body>

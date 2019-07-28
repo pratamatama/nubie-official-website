@@ -10,33 +10,19 @@
         width: 100%;
         height: calc(100% + 1px);
         position: absolute;
-        top: -60%;
+        top: -40%;
         left: 0;
         background: url(/images/linear-single.svg);
         background-repeat: no-repeat;
-        background-size: 100% 100%;
 
         @media (min-width: 320px) and (max-width: 767.5px) {
-            top: -60%;
+            top: -55%;
         }
 
         @media (min-width: 1920px) {
             top: -75%;
         }
     }
-
-    @media (min-width: 320px) and (max-width: 767.5px) {
-        &::after {
-            content: '';
-            width: 100%;
-            height: 5%;
-            position: absolute;
-            top: -3%;
-            left: 0;
-            background-color: $secondary;
-        }
-    }
-
 
     .wrapper {
         z-index: 1;
